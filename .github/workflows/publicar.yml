@@ -1,1 +1,24 @@
-secrets.IG_DONITA.
+name: publicar
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+concurrency: publicar
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24 }
+      - run: node publicar.mjs
+        env:
+          META_TOKEN: ${{ secrets.IG_DONITA }}
+      - if: always()
+        run: |
+          git config user.name publicador
+          git config user.email publicador@users.noreply.github.com
+          git add cola.json
+          git diff --cached --quiet || (git commit -m "cola: publicados" && git push)
