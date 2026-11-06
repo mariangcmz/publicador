@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ejemplo-no-borrar",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "reel",
+    "fecha": "2099-01-01T18:00:00-06:00",
+    "media": ["https://raw.githubusercontent.com/mariangcmz/donita-media/main/reels/ejemplo.mp4"],
+    "caption": "Ejemplo. tipo: reel | imagen | carrusel. red: ig | fb. estado: pendiente | publicado | error.",
+    "estado": "plantilla"
+  }
+]
