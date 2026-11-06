@@ -57,8 +57,16 @@ async function publicarIG(p, token, igId) {
 
 async function publicarFB(p, token, pageId) {
   // shortcut: video sale como video normal (/videos), no como Reel de FB; cambiar a video_reels si hace falta.
-  if (p.tipo === 'carrusel') throw new Error('carrusel en FB no soportado todavía');
   const { access_token: pageToken } = await api(pageId, token, { fields: 'access_token' }, 'GET');
+  if (p.tipo === 'carrusel') { // FB: fotos sin publicar + un post que las adjunta
+    const adjuntos = {};
+    for (const [i, url] of p.media.entries()) {
+      const { id } = await api(`${pageId}/photos`, pageToken, { url, published: 'false' });
+      adjuntos[`attached_media[${i}]`] = JSON.stringify({ media_fbid: id });
+    }
+    const r = await api(`${pageId}/feed`, pageToken, { message: p.caption, ...adjuntos });
+    return `fb:${r.id}`;
+  }
   const url = p.media[0];
   const r = esVideo(url)
     ? await api(`${pageId}/videos`, pageToken, { file_url: url, description: p.caption })
