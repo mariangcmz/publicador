@@ -44,5 +44,29 @@
     "estado": "publicado",
     "resultado": "fb:1433953636456473_122120413617505564",
     "procesado": "2026-11-06T20:00:21.508Z"
+  },
+  {
+    "id": "dd-parece-reel-ig",
+    "red": "ig",
+    "cuenta": "donita",
+    "tipo": "reel",
+    "fecha": "2026-11-09T12:00:00-06:00",
+    "media": [
+      "https://cdn.jsdelivr.net/gh/mariangcmz/donita-media@main/reels/2026-11-07-parece-powerpoint.mp4"
+    ],
+    "caption": "Quería arreglar mi engine y pasó de parecer post de LinkedIn a post de Sección Amarilla.\n\nCuéntame qué herramienta te ha creado más problemas que tu marido.\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-parece-reel-fb",
+    "red": "fb",
+    "cuenta": "donita",
+    "tipo": "reel",
+    "fecha": "2026-11-09T12:00:00-06:00",
+    "media": [
+      "https://cdn.jsdelivr.net/gh/mariangcmz/donita-media@main/reels/2026-11-07-parece-powerpoint.mp4"
+    ],
+    "caption": "Quería arreglar mi engine y pasó de parecer post de LinkedIn a post de Sección Amarilla.\n\nCuéntame qué herramienta te ha creado más problemas que tu marido.\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
   }
 ]
