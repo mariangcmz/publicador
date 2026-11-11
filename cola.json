@@ -72,5 +72,61 @@
     "estado": "publicado",
     "resultado": "fb:1102799245702611",
     "procesado": "2026-11-09T19:01:07.217Z"
+  },
+  {
+    "id": "dd-limites-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-11T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-5.jpg"
+    ],
+    "caption": "Cuando a Claude se le acaban los límites, lloro y espero a que reinicie.\nPor eso reparto tareas entre ChatGPT y Gemini.\n\n¿Y tú, qué haces cuando se te acaban los límites?\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-limites-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-11T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-11-limites/limites-5.jpg"
+    ],
+    "caption": "Cuando a Claude se le acaban los límites, lloro y espero a que reinicie.\nPor eso reparto tareas entre ChatGPT y Gemini.\n\n¿Y tú, qué haces cuando se te acaban los límites?\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-limites-reel-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "reel",
+    "fecha": "2026-11-11T18:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/reels/2026-11-11-limites.mp4"
+    ],
+    "caption": "Cuando a Claude se le acaban los límites, lloro y espero a que reinicie.\nPor eso reparto tareas entre ChatGPT y Gemini.\n\n¿Y tú, qué haces cuando se te acaban los límites?\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-limites-reel-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "reel",
+    "fecha": "2026-11-11T18:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/reels/2026-11-11-limites.mp4"
+    ],
+    "caption": "Cuando a Claude se le acaban los límites, lloro y espero a que reinicie.\nPor eso reparto tareas entre ChatGPT y Gemini.\n\n¿Y tú, qué haces cuando se te acaban los límites?\n\n#ladonitadev #agentesdeIA #inteligenciaartificial #emprendedoras #construyendoenpublico",
+    "estado": "pendiente"
   }
 ]
