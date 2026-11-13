@@ -164,5 +164,165 @@
     "estado": "publicado",
     "resultado": "fb:2365637584237052",
     "procesado": "2026-11-13T20:06:14.059Z"
+  },
+  {
+    "id": "dd-pagos-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-14T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-5.jpg"
+    ],
+    "caption": "Mi app de finanzas no mostraba un pago del día 22 en próximos pagos.\nLos datos estaban bien: la vista no.\n\n¿Tu app te enseña el mes completo o solo lo que decidió el programa?",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-pagos-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-14T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-14-pagos/pagos-5.jpg"
+    ],
+    "caption": "Mi app de finanzas no mostraba un pago del día 22 en próximos pagos.\nLos datos estaban bien: la vista no.\n\n¿Tu app te enseña el mes completo o solo lo que decidió el programa?",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-revisa-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-15T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-5.jpg"
+    ],
+    "caption": "Pedí revisión y recibí desarrollo.\nMismo second brain, otro trabajo.\n\nGuárdalo para tu próximo prompt.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-revisa-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-15T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-15-revisa/revisa-5.jpg"
+    ],
+    "caption": "Pedí revisión y recibí desarrollo.\nMismo second brain, otro trabajo.\n\nGuárdalo para tu próximo prompt.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-automatizacion-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-16T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-5.jpg"
+    ],
+    "caption": "Tengo una tarea diaria que lee mis sesiones con la IA y detecta fricciones.\n\nSigo armando este engine.\nSi quieres ver qué más se rompe, sígueme.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-automatizacion-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-16T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-16-automatizacion/automatizacion-5.jpg"
+    ],
+    "caption": "Tengo una tarea diaria que lee mis sesiones con la IA y detecta fricciones.\n\nSigo armando este engine.\nSi quieres ver qué más se rompe, sígueme.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-plano-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-17T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-5.jpg"
+    ],
+    "caption": "Una regla de negocio, olvidada en el plano de mi panel.\nUn pago recibido resta del pendiente.\n\nGuárdalo para cuando actualices un plano.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-plano-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-17T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-17-plano/plano-5.jpg"
+    ],
+    "caption": "Una regla de negocio, olvidada en el plano de mi panel.\nUn pago recibido resta del pendiente.\n\nGuárdalo para cuando actualices un plano.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-quien-la-rego-ig",
+    "cuenta": "donita",
+    "red": "ig",
+    "tipo": "carrusel",
+    "fecha": "2026-11-18T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-5.jpg"
+    ],
+    "caption": "Un carrusel encimado y una regla que ya existía.\n\n¿Qué dio por bueno tu IA que estaba mal?\nCuéntamelo.",
+    "estado": "pendiente"
+  },
+  {
+    "id": "dd-quien-la-rego-fb",
+    "cuenta": "donita",
+    "red": "fb",
+    "tipo": "carrusel",
+    "fecha": "2026-11-18T13:00:00-06:00",
+    "media": [
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-1.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-2.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-3.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-4.jpg",
+      "https://raw.githubusercontent.com/mariangcmz/donita-media/main/carruseles/2026-11-18-quien-la-rego/quien-la-rego-5.jpg"
+    ],
+    "caption": "Un carrusel encimado y una regla que ya existía.\n\n¿Qué dio por bueno tu IA que estaba mal?\nCuéntamelo.",
+    "estado": "pendiente"
   }
 ]
