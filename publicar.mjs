@@ -36,7 +36,9 @@ async function esperarContenedor(id, token) {
 async function publicarIG(p, token, igId) {
   const crear = async (url, extra = {}) => {
     const tipo = esVideo(url)
-      ? { media_type: p.tipo === 'reel' ? 'REELS' : 'VIDEO', video_url: url }
+      ? p.tipo === 'reel'
+        ? { media_type: 'REELS', video_url: url, share_to_feed: 'true' } // explícito: sin esto puede quedar solo en pestaña Reels
+        : { media_type: 'VIDEO', video_url: url }
       : { image_url: url };
     const { id } = await api(`${igId}/media`, token, { ...tipo, ...extra });
     if (esVideo(url)) await esperarContenedor(id, token);
