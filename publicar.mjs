@@ -41,7 +41,7 @@ async function publicarIG(p, token, igId) {
         : { media_type: 'VIDEO', video_url: url }
       : { image_url: url };
     const { id } = await api(`${igId}/media`, token, { ...tipo, ...extra });
-    if (esVideo(url)) await esperarContenedor(id, token);
+    await esperarContenedor(id, token); // también imágenes: el padre del carrusel no se crea con hijos a medias
     return id;
   };
   let id;
