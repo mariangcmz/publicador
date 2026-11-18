@@ -23,8 +23,8 @@ async function api(ruta, token, params = {}, metodo = 'POST') {
 
 const esVideo = u => /\.(mp4|mov)(\?|$)/i.test(u);
 
-// Reels de IG: < 1.5 MB (formatos/plataformas.md del content-engine, 2026-11-18). Sin content-length no se puede medir y pasa.
-export const reelPesaDemasiado = bytes => bytes > 1_500_000;
+// Reels de IG: ~1.5 MB es guía (formatos/plataformas.md); aquí solo se frenan extremos como el de 55 MB. Sin content-length pasa.
+export const reelPesaDemasiado = bytes => bytes > 10_000_000;
 
 async function esperarContenedor(id, token) {
   for (let i = 0; i < 60; i++) { // hasta 10 min
@@ -40,7 +40,7 @@ async function publicarIG(p, token, igId) {
   const crear = async (url, extra = {}) => {
     if (p.tipo === 'reel' && esVideo(url)) {
       const bytes = Number((await fetch(url, { method: 'HEAD' })).headers.get('content-length'));
-      if (reelPesaDemasiado(bytes)) throw new Error(`reel de ${(bytes / 1e6).toFixed(1)} MB: IG pide menos de 1.5 MB`);
+      if (reelPesaDemasiado(bytes)) throw new Error(`reel de ${(bytes / 1e6).toFixed(1)} MB: extremo para IG (guía ~1.5 MB)`);
     }
     const tipo = esVideo(url)
       ? p.tipo === 'reel'

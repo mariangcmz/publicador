@@ -13,9 +13,10 @@ test('solo pendientes con hora cumplida', () => {
   assert.deepEqual(pendientes(cola, ahora).map(p => p.id), ['a']);
 });
 
-test('reel de IG: tope de 1.5 MB', async () => {
+test('reel de IG: solo frena extremos (> 10 MB)', async () => {
   const { reelPesaDemasiado } = await import('./publicar.mjs');
   assert.equal(reelPesaDemasiado(914_000), false);
+  assert.equal(reelPesaDemasiado(3_000_000), false);
   assert.equal(reelPesaDemasiado(55_000_000), true);
   assert.equal(reelPesaDemasiado(NaN), false); // sin content-length no se bloquea
 });
